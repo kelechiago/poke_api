@@ -1,0 +1,2 @@
+https://beta.pokeapi.co/graphql/console/
+https://pokeapi.co
