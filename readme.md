@@ -20,7 +20,7 @@ git clone https://github.com/your-username/your-repo.git
 2. Install the required libraries:
 
 ```
-pip install requests
+pip install -r requirements.txt
 ```
 
 ## Usage
