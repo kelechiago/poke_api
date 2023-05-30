@@ -60,7 +60,7 @@ data = response.json()['data']
 # Create a list to hold flattened data
 rows = []
 
-# Loop through each species
+# Loop through each row
 for pokemon in data['pokemon_v2_pokemon']:
     # Flatten the species data
   row = {
