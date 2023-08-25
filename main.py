@@ -108,13 +108,13 @@ conn = sqlite3.connect('pokemon.db')
 c = conn.cursor()
 
 # Create a table to hold the flattened data
-c.execute('''CREATE TABLE IF NOT EXISTS pokemon_tbl
+c.execute("""CREATE TABLE IF NOT EXISTS pokemon_tbl
              (name TEXT, id INTEGER, height INTEGER, base_experience INTEGER, pokemon_species_id INTEGER,
              weight INTEGER, hp INTEGER, attack INTEGER, defense INTEGER, "special-attack" INTEGER, "special-defense" INTEGER, speed INTEGER,
              evolution_chain_id INTEGER, evolves_from_species_id INTEGER, gender_rate INTEGER, has_gender_differences INTEGER,
              is_baby INTEGER, is_legendary INTEGER, is_mythical INTEGER,
              capture_rate INTEGER, base_happiness INTEGER, hatch_counter INTEGER, growth_rate TEXT,
-             generation_name TEXT, habitat_name TEXT, type_name_1 TEXT, type_name_2 TEXT)''')
+             generation_name TEXT, habitat_name TEXT, type_name_1 TEXT, type_name_2 TEXT)""")
 
 # Load the flattened data from the CSV file
 with open('pokemon.csv', 'r') as f:
