@@ -1,6 +1,11 @@
-# Pokémon Data Extraction and SQLite Import
+# Pokémon API and Data Science Tutorial
 
-This script extracts Pokémon data from the PokeAPI GraphQL endpoint, flattens it, and imports it into an SQLite database.
+Here is a (work-in-progress) tutorial and guide of general data science principles using Pokémon data! I plan to cover things such as:
+
+- Statistics and Statistical Models
+- Data Visualization
+- Machine Learning
+- Model Evaluation
 
 ## Requirements
 
@@ -8,6 +13,11 @@ This script extracts Pokémon data from the PokeAPI GraphQL endpoint, flattens i
 - requests library
 - csv library
 - sqlite3 library
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikitlearn
 
 ## Installation
 

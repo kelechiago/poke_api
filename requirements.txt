@@ -2,3 +2,6 @@ requests
 sqlite3
 seaborn
 matplotlib
+pandas
+numpy
+sklearn
